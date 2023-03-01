@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+body {
+  background-color: #ffffff;
+}
+.header_container {
+  margin: auto;
+  width: 1397px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container_li {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 18px;
+  color: #828282;
+}
+.home {
+  color: #070707;
+}
+/* main */
+.main_container > hr {
+  margin: auto;
+  width: 911px;
+  height: 0;
+  border: 1px solid #828282;
+  margin-top: 32.73px;
+}
+.main_container > h1 {
+  margin: auto;
+  width: 119px;
+  height: 121px;
+  padding-right: 900px;
+  margin-top: 40px;
+}
+.main_container > p {
+  margin: auto;
+  width: 150px;
+  height: 45px;
+  margin-top: -90px;
+}
+.main_container > h6 {
+  /* margin: auto; */
+  width: 69px;
+  height: 16px;
+  margin-left: 1130px;
+  margin-top: -45px;
+  transform: rotate(-90deg);
+  font-size: 12px;
+  color: #070707;
+}
+/* section */
+.section_img {
+  margin: auto;
+  margin-top: 55px;
+  background-image: url(./image/Denis.png);
+  width: 912px;
+  height: 397px;
+}
+/* section-2 */
+.section_about_me {
+  margin: auto;
+  margin-top: 106px;
+  width: 1397px;
+  height: 519px;
+  background: #f6f6f6;
+}
+.section_about_me > h1 {
+  margin-left: 646px;
+  padding-top: 123px;
+  width: 150px;
+  height: 44px;
+  color: #070707;
+}
+.section_about_me > p {
+  margin: auto;
+  font-family: "Gilroy-Medium";
+  padding-top: 45px;
+  text-align: center;
+  line-height: 20px;
+  color: #070707;
+}
+/* section-3 */
+.section_text > h1 {
+  margin: auto;
+  padding-left:10px;
+  width: 120px;
+  margin-top: 94px;
+  color: #070707;
+}
+.section_text > p {
+  margin: auto;
+  width: 220px;
+  margin-top: 70px;
+  color: #070707;
+}
+.section_icon {
+  display: flex;
+  gap: 240px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 86px;
+}
+.section_text_2 {
+  display: flex;
+  justify-content: center;
+  gap: 240px;
+  align-items: center;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 17px;
+  margin-top: 23px;
+  color: #828282;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+.zvezda {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  gap: 170px;
+  align-items: center;
+  margin-top: 40px;
+}
+/* section-4 */
+.container {
+  margin: auto;
+  margin-top: 120px;
+  width: 1397px;
+  height: 2310px;
+  background: #f6f6f6;
+}
+.container_1_text {
+  padding-top: 111px;
+  margin-left: 613px;
+  color: #070707;
+}
+.container_img {
+  margin-left: 224px;
+  margin-top: 48px;
+}
+.container_2_text {
+  padding-top: 46px;
+  margin-left: 545px;
+  color: #070707;
+  text-decoration-line: underline;
+}
+.container_img2 {
+  margin-left: 224px;
+  margin-top: 101px;
+}
+.container_3_text {
+  padding-top: 46px;
+  margin-left: 581px;
+  color: #070707;
+  text-decoration-line: underline;
+}
+.container_img3 {
+  margin-left: 224px;
+  margin-top: 101px;
+}
+.container_4_text {
+  padding-top: 47px;
+  margin-left: 581px;
+  color: #070707;
+  text-decoration-line: underline;
+}
+/* footer */
+.footer_text > h1 {
+  margin: auto;
+  margin-top: 113px;
+  width: 140px;
+  color: #070707;
+}
+.footer_text > p {
+  margin: auto;
+  margin-top: 25px;
+  width: 266px;
+  text-align: center;
+  line-height: 22px;
+  color: #070707;
+}
+.footer_text > button {
+  margin-left: 650px;
+  width: 174px;
+  height: 43px;
+  margin-top: 30px;
+  background-color: #070707;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.footer_icon {
+  margin: auto;
+  width: 100px;
+  padding-right: 300px;
+  margin-top: 87px;
+  display: flex;
+  gap: 50px;
+}
+.footer_p {
+  margin-top: 46px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+}
